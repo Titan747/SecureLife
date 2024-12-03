@@ -1,0 +1,130 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url("images/hero.jpg") no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero .btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.hero .btn:hover {
+  background-color: #218838;
+}
+
+/* Service Cards */
+.service-card {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.3s;
+  height: 363px;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+    height: 200px;
+  }
+
+  .service-card p {
+    font-size: 1rem;
+  }
+}
+
+/* Background Styling for Services Section */
+.py-5 {
+  background-image: url("images/services.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Styling for Plans Section */
+.service-color {
+  color: rgb(125, 37, 37);
+  background-image: url("images/plans.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.service-plans-title-color {
+  color: whitesmoke;
+}
